@@ -22,6 +22,12 @@ const accordionData = [
         question: "What is first pet name ?",
         answer: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam, adipisci
         repudiandae beatae laudantium`
+    },
+    {
+        id: 5,
+        question: "Do you love programing ?",
+        answer: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam, adipisci
+        repudiandae beatae laudantium`
     }
 ]
 
