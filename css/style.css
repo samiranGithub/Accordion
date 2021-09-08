@@ -1,0 +1,47 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.accordion_wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.accordion_items {
+    margin: 10px 0;
+}
+
+.acc_tabs {
+    background-color: gold;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+.acc_tab_content {
+    background-color: gray;
+    color: white;
+    word-break: break-all;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.6s linear;
+}
+
+.accordion_items.active .acc_tab_content {
+    max-height: 200px;
+    padding: 10px;
+}
